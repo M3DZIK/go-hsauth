@@ -47,7 +47,7 @@ hsAuthKey, err := hsauth.GenerateKeyV1(userPrivateKey, serverKeyPair.PublicKey)
 
 ```go
 import (
-    "fmt
+    "fmt"
     "go.medzik.dev/hsauth"
 )
 
